@@ -16,5 +16,3 @@ ribbon:
   eager-load:
     enabled: true
     clients: stock-service
-server:
-  port: 8085

@@ -12,4 +12,4 @@ spring:
         #当为 false 时，表示永久服务，即使服务不可用，nacos 仍然会将其保留，并可能在客户端拉取服务列表时，将其返回。
         ephemeral: true
 server:
-  port: 8081
+  port: 8087

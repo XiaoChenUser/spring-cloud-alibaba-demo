@@ -11,6 +11,7 @@
         <module>stock-nacos</module>
         <module>order-ribbon-annotation</module>
         <module>order-ribbon-yml</module>
+        <module>order-feign</module>
     </modules>
     <name>spring-cloud-alibaba-demo</name>
     <description>spring cloud alibaba demo project</description>
