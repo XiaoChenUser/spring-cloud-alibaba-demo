@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 43.138.208.107:8847/nacos
+        namespace: public
+        username: nacos
+        password: nacos
+stock-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+#饥饿加载，在启动时就拉取指定服务的实例列表
+ribbon:
+  eager-load:
+    enabled: true
+    clients: stock-service

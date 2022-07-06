@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      discovery:
+        # /nacos 必不可少
+        server-addr: 43.138.208.107:8847/nacos
+        namespace: public
+        username: nacos
+        password: nacos
+        service: ${spring.application.name}

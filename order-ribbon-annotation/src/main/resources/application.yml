@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 43.138.208.107:8847/nacos
+        namespace: public
+        username: nacos
+        password: nacos
+        # default:true，表示临时服务实例，当服务一段时间内没有心跳（服务异常），将会被 nacos 踢出服务列表；
+        #当为 false 时，表示永久服务，即使服务不可用，nacos 仍然会将其保留，并可能在客户端拉取服务列表时，将其返回。
+        ephemeral: true
