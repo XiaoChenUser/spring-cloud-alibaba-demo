@@ -13,3 +13,11 @@ spring:
         ephemeral: true
 server:
   port: 8087
+logging:
+  level:
+    com.example.order.feign: debug
+feign:
+  client:
+    config:
+      product-service:
+        loggerLevel: FULL
