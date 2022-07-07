@@ -21,3 +21,5 @@ feign:
     config:
       product-service:
         loggerLevel: FULL
+        connectTimeout: 5000
+        readTimeout: 3000
