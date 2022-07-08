@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: config-nacos
+  cloud:
+    nacos:
+      server-addr: 43.138.208.107:8846
+      username: nacos
+      password: nacos
+      config:
+        name: nacos-config
+        file-extension: properties
+        namespace: bbfab8ba-8870-4ec4-ad03-ff4dc3115570
+        group: DEFAULT_GROUP
+        shared-configs:
+          - data-id: common-config.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+            file-extension: yaml
+        extension-configs:
+          - data-id: ext-config-common01.properties
+            group: SPRING_ALIBABA
+            refresh: true
+            file-extension: properties
+          - data-id: ext-config-common02.yaml
+            group: SPRING_ALIBABA
+            refresh: true
+            file-extension: yaml

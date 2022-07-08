@@ -5,7 +5,7 @@ spring:
     nacos:
       discovery:
         # /nacos 必不可少
-        server-addr: 43.138.208.107:8847/nacos
+        server-addr: 43.138.208.107:8846
         namespace: public
         username: nacos
         password: nacos

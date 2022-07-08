@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.example.config.bean.User",
+      "sourceType": "com.example.config.bean.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.address",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.bean.User"
+    },
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.config.bean.User"
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.config.bean.User"
+    },
+    {
+      "name": "user.school",
+      "type": "com.example.config.bean.School",
+      "sourceType": "com.example.config.bean.User"
+    },
+    {
+      "name": "user.sports",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.config.bean.User"
+    }
+  ],
+  "hints": []
+}

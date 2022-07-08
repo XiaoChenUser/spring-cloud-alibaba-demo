@@ -4,7 +4,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 43.138.208.107:8847/nacos
+        server-addr: 43.138.208.107:8846
         namespace: public
         username: nacos
         password: nacos
@@ -16,3 +16,5 @@ ribbon:
   eager-load:
     enabled: true
     clients: stock-service
+server:
+  port: 8085
