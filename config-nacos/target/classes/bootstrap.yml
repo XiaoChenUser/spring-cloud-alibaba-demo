@@ -9,7 +9,7 @@ spring:
       config:
         name: nacos-config
         file-extension: properties
-        namespace: bbfab8ba-8870-4ec4-ad03-ff4dc3115570
+        namespace: bbfab8ba-8870-4ec4-ad03-ff4dc3115570  #dev
         group: DEFAULT_GROUP
         shared-configs:
           - data-id: common-config.yaml

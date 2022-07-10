@@ -14,6 +14,7 @@
         <module>order-feign</module>
         <module>product-info</module>
         <module>config-nacos</module>
+        <module>order-sentinel</module>
     </modules>
     <name>spring-cloud-alibaba-demo</name>
     <description>spring cloud alibaba demo project</description>
