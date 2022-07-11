@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="order-sentinel" />
+        <module name="order-feign-sentinel" />
         <module name="order-ribbon-yml" />
         <module name="sentinel-standalone" />
         <module name="order-ribbon-annotation" />
@@ -18,9 +19,7 @@
         <module name="product-info" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="sentinel-standalone" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

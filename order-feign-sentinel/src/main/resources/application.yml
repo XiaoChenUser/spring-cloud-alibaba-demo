@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 43.138.208.107:8846
+        namespace: public
+        username: nacos
+        password: nacos
+server:
+  port: 9992
+feign:
+  sentinel:
+    enabled: true

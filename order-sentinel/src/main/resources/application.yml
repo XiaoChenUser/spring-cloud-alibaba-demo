@@ -1,10 +1,11 @@
 spring:
   application:
-    name: order-service
+    name: sentinel-service
   cloud:
     sentinel:
       transport:
         dashboard: localhost:8080
         port: 8719
+      web-context-unify: false
 server:
   port: 9091

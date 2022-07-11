@@ -24,7 +24,7 @@ public class DegradeController {
 
     public String blockHandler(BlockException e){
         e.printStackTrace();
-        return "internal exception";
+        return "熔断降级：degrade for exception count";
     }
 
     @PostConstruct

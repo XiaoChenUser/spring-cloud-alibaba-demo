@@ -39,7 +39,7 @@ public class HelloController {
         List<FlowRule> flowRules = new ArrayList<>();
         FlowRule rule = new FlowRule();
         rule.setResource(HELLO_WORLD);
-        rule.setGrade(RuleConstant.FLOW_GRADE_QPS);
+        rule.setGrade(RuleConstant.FLOW_GRADE_THREAD);
         rule.setCount(1);
 //        rule.setStrategy(RuleConstant.STRATEGY_DIRECT);
 //        rule.setControlBehavior(RuleConstant.CONTROL_BEHAVIOR_DEFAULT);

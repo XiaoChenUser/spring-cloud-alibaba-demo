@@ -16,4 +16,10 @@ public class StockController {
         System.out.println("扣减库存");
         return "[" + port + "] - 库存-1";
     }
+
+    @RequestMapping("/reduce2")
+    public String reduce2(){
+        System.out.println("扣减库存");
+        throw new RuntimeException("库存不足");
+    }
 }
