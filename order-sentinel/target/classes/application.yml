@@ -4,7 +4,7 @@ spring:
   cloud:
     sentinel:
       transport:
-        dashboard: localhost:8080
+        dashboard: localhost:8858
         port: 8719
       web-context-unify: false
 server:

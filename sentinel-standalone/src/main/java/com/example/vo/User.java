@@ -1,4 +1,4 @@
-package com.example.bean;
+package com.example.vo;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

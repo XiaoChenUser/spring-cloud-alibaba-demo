@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.concurrent.TimeUnit;
-
 @RestController
 @RequestMapping("/sentinel")
 public class FlowController {
@@ -27,7 +25,7 @@ public class FlowController {
     }
 
     @RequestMapping("/flow/thread")
-//    @SentinelResource(value = "flowThread", blockHandler = "flowBlockHandler")
+    @SentinelResource(value = "flowThread", blockHandler = "flowBlockHandler")
     public String flowThread() throws InterruptedException {
         Thread.sleep(5000);
         return "每次n个线程访问";

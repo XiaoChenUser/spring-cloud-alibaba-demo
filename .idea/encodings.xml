@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/product-info/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-standalone/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-standalone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stock-nacos/src/main/resources" charset="UTF-8" />
   </component>
